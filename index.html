@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Amit Singh</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-<style>
+  <title>Amit Singh</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=RobotoDraft"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <style>
     html,
     body,
     h1,
@@ -18,445 +25,546 @@
     h3,
     h4,
     h5 {
-        font-family: "RobotoDraft", "Roboto", sans-serif
+      font-family: "RobotoDraft", "Roboto", sans-serif;
     }
 
     .w3-bar-block .w3-bar-item {
-        padding: 16px
+      padding: 16px;
     }
 
     .down {
-        background: #ffffff;
-        border: solid 1px #e6e6e6;
-        border-radius: 2px;
-        display: inline-block;
-        height: 100px;
-        line-height: 100px;
-        margin: 5px;
-        position: relative;
-        text-align: center;
-        vertical-align: middle;
-        width: 100px;
+      background: #ffffff;
+      border: solid 1px #e6e6e6;
+      border-radius: 2px;
+      display: inline-block;
+      height: 100px;
+      line-height: 100px;
+      margin: 5px;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 100px;
     }
 
     .down span {
-        background: #f2594b;
-        border-radius: 4px;
-        color: #ffffff;
-        display: inline-block;
-        font-size: 11px;
-        font-weight: 700;
-        line-height: normal;
-        padding: 5px 10px;
-        position: relative;
-        text-transform: uppercase;
-        z-index: 1;
+      background: #f2594b;
+      border-radius: 4px;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      line-height: normal;
+      padding: 5px 10px;
+      position: relative;
+      text-transform: uppercase;
+      z-index: 1;
     }
 
     .down span:last-child {
-        margin-left: -20px;
+      margin-left: -20px;
     }
 
     .down:before,
     .down:after {
-        background: #ffffff;
-        border: solid 3px #9fb4cc;
-        border-radius: 4px;
-        content: '';
-        display: block;
-        height: 35px;
-        left: 50%;
-        margin: -17px 0 0 -12px;
-        position: absolute;
-        top: 50%;
-        /*transform:translate(-50%,-50%);*/
+      background: #ffffff;
+      border: solid 3px #9fb4cc;
+      border-radius: 4px;
+      content: "";
+      display: block;
+      height: 35px;
+      left: 50%;
+      margin: -17px 0 0 -12px;
+      position: absolute;
+      top: 50%;
+      /*transform:translate(-50%,-50%);*/
 
-        width: 25px;
+      width: 25px;
     }
 
     .down:hover:before,
     .down:hover:after {
-        background: #e2e8f0;
+      background: #e2e8f0;
     }
 
     /*a:before{transform:translate(-30%,-60%);}*/
 
     .down:before {
-        margin: -23px 0 0 -5px;
+      margin: -23px 0 0 -5px;
     }
 
     .down:hover {
-        background: #e2e8f0;
-        border-color: #9fb4cc;
+      background: #e2e8f0;
+      border-color: #9fb4cc;
     }
 
     .down:active {
-        background: #dae0e8;
-        box-shadow: inset 0 2px 2px rgba(0, 0, 0, .25);
+      background: #dae0e8;
+      box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.25);
     }
 
     .down span:first-child {
-        display: none;
+      display: none;
     }
 
     .down:hover span:first-child {
-        display: inline-block;
+      display: inline-block;
     }
 
     .down:hover span:last-child {
-        display: none;
+      display: none;
     }
-</style>
-<style>
-    @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+  </style>
+  <style>
+    @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
     a,
     .socialbtnsbtnsbtns a:hover {
-        color: #000;
-        text-decoration: none;
-        padding: 5px;
+      color: #000;
+      text-decoration: none;
+      padding: 5px;
     }
 
     .socialbtnsbtnsbtns,
     .socialbtnsbtnsbtns ul,
     .socialbtnsbtnsbtns li {
-        margin: 0;
-        padding: 5px;
+      margin: 0;
+      padding: 5px;
     }
 
     .socialbtnsbtnsbtns li {
-        list-style: none outside none;
-        display: inline-block;
+      list-style: none outside none;
+      display: inline-block;
     }
 
     .socialbtns li {
-        list-style: none outside none;
-        display: inline-block;
-        padding: 60px
+      list-style: none outside none;
+      display: inline-block;
+      padding: 60px;
     }
 
     .socialbtns .fa {
-
-
-        color: #FFF;
-        text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-        -webkit-text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-        -moz-text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-        -o-text-shadow: 1px 1px 0px #000,
-            1px -1px 0px #000,
-            -1px 1px 0px #000,
-            -1px -1px 0px #000;
-        transition: all ease-out 0.5s;
-        -moz-transition: all ease-out 0.5s;
-        -webkit-transition: all ease-out 0.5s;
-        -o-transition: all ease-out 0.5s;
+      color: #fff;
+      text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000,
+        -1px -1px 0px #000;
+      -webkit-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000,
+        -1px 1px 0px #000, -1px -1px 0px #000;
+      -moz-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000,
+        -1px -1px 0px #000;
+      -o-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000,
+        -1px -1px 0px #000;
+      transition: all ease-out 0.5s;
+      -moz-transition: all ease-out 0.5s;
+      -webkit-transition: all ease-out 0.5s;
+      -o-transition: all ease-out 0.5s;
     }
 
     .socialbtns .fa:hover {
-        color: #000;
-        text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-        -webkit-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-        -moz-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-        -o-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-        transition: all ease 0.5s;
-        -moz-transition: all ease-in 0.5s;
-        -webkit-transition: all ease-in 0.5s;
-        -o-transition: all ease-in 0.5s;
+      color: #000;
+      text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff,
+        -1px -1px 0px #fff;
+      -webkit-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff,
+        -1px 1px 0px #fff, -1px -1px 0px #fff;
+      -moz-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff,
+        -1px -1px 0px #fff;
+      -o-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff,
+        -1px -1px 0px #fff;
+      transition: all ease 0.5s;
+      -moz-transition: all ease-in 0.5s;
+      -webkit-transition: all ease-in 0.5s;
+      -o-transition: all ease-in 0.5s;
     }
-</style>
+  </style>
 
-<body>
-
+  <body>
     <!-- Side Navigation -->
-    <nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:3;width:320px;"
-        id="mySidebar">
+    <nav
+      class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card"
+      style="z-index: 3; width: 320px"
+      id="mySidebar"
+    >
+      <a
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button w3-border-bottom w3-large"
+      >
+        <b>AMIT SINGH</b>
+      </a>
+      <a
+        href="javascript:void(0)"
+        onclick="w3_close()"
+        title="Close Sidemenu"
+        class="w3-bar-item w3-button w3-hide-large w3-large"
+        >Close <i class="fa fa-remove"></i>
+      </a>
 
+      <a
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align"
+        onclick="document.getElementById('id01').style.display='block'"
+        >New Message
+        <i class="w3-padding fa fa-pencil"></i>
+      </a>
 
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom w3-large">
-            <b>AMIT SINGH</b>
+      <a
+        id="myBtn"
+        onclick="myFunc('Demo1')"
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button"
+        ><i class="fa fa-inbox w3-margin-right"></i>Inbox (3)<i
+          class="fa fa-caret-down w3-margin-left"
+        ></i>
+      </a>
+
+      <div id="Demo1" class="w3-hide w3-animate-left">
+        <a
+          class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey"
+          onclick="openMail('Amit');w3_close();"
+          id="firstTab"
+        >
+          <div class="w3-container">
+            <img
+              class="w3-round w3-margin-right"
+              src="1.png"
+              style="width: 15%"
+            /><span class="w3-opacity w3-large">Amit</span>
+            <h6>Subject: About Me</h6>
+            <p>Hello, As a teenager at school, I was the kid other...</p>
+          </div>
         </a>
-        <a href="javascript:void(0)" onclick="w3_close()" title="Close Sidemenu"
-            class="w3-bar-item w3-button w3-hide-large w3-large">Close <i class="fa fa-remove"></i>
+
+        <a
+          class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey"
+          onclick="openMail('Suraj');w3_close();"
+        >
+          <div class="w3-container">
+            <img
+              class="w3-round w3-margin-right"
+              src="2.jpeg"
+              style="width: 15%"
+            /><span class="w3-opacity w3-large">Suraj</span>
+            <p>Hey, Did Amit forgot to give his Resume?...</p>
+          </div>
         </a>
 
-
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align"
-            onclick="document.getElementById('id01').style.display='block'">New Message
-            <i class="w3-padding fa fa-pencil"></i>
+        <a
+          class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey"
+          onclick="openMail('Mansi');w3_close();"
+        >
+          <div class="w3-container">
+            <img
+              class="w3-round w3-margin-right"
+              src="3.jpeg"
+              style="width: 15%"
+            /><span class="w3-opacity w3-large">Mansi</span>
+            <p>Contact!</p>
+          </div>
         </a>
+      </div>
 
-
-        <a id="myBtn" onclick="myFunc('Demo1')" href="javascript:void(0)" class="w3-bar-item w3-button"><i
-                class="fa fa-inbox w3-margin-right"></i>Inbox (3)<i class="fa fa-caret-down w3-margin-left"></i>
-        </a>
-
-
-        <div id="Demo1" class="w3-hide w3-animate-left">
-
-
-            <a class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey"
-                onclick="openMail('Amit');w3_close();" id="firstTab">
-                <div class="w3-container">
-                    <img class="w3-round w3-margin-right" src="1.png" style="width:15%;"><span
-                        class="w3-opacity w3-large">Amit</span>
-                    <h6>Subject: About Me</h6>
-                    <p>Hello, As a teenager at school, I was the kid other...</p>
-                </div>
-            </a>
-
-
-            <a class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey"
-                onclick="openMail('Suraj');w3_close();">
-                <div class="w3-container">
-                    <img class="w3-round w3-margin-right" src="2.jpeg" style="width:15%;"><span
-                        class="w3-opacity w3-large">Suraj</span>
-                    <p>Hey, Did Amit forgot to give his Resume?...</p>
-                </div>
-            </a>
-
-
-            <a class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey"
-                onclick="openMail('Mansi');w3_close();">
-                <div class="w3-container">
-                    <img class="w3-round w3-margin-right" src="3.jpeg" style="width:15%;"><span
-                        class="w3-opacity w3-large">Mansi</span>
-                    <p>Contact!</p>
-                </div>
-            </a>
-
-
-        </div>
-
-
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-paper-plane w3-margin-right"></i>Sent</a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-hourglass-end w3-margin-right"></i>Drafts</a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trash w3-margin-right"></i>Trash</a>
-
-
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-paper-plane w3-margin-right"></i>Sent</a
+      >
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-hourglass-end w3-margin-right"></i>Drafts</a
+      >
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-trash w3-margin-right"></i>Trash</a
+      >
     </nav>
 
-
     <!-- Modal that pops up when you click on "New Message" -->
-    <div id="id01" class="w3-modal" style="z-index:4">
-        <div class="w3-modal-content w3-animate-zoom">
-            <div class="w3-container w3-padding w3-red">
-                <span onclick="document.getElementById('id01').style.display='none'"
-                    class="w3-button w3-red w3-right w3-xxlarge"><i class="fa fa-remove"></i></span>
-                <h2>Send Mail</h2>
-            </div>
-            <div class="w3-panel">
-                <label>To</label>
-                <input class="w3-input w3-border w3-margin-bottom" type="text">
-                <label>From</label>
-                <input class="w3-input w3-border w3-margin-bottom" type="text">
-                <label>Subject</label>
-                <input class="w3-input w3-border w3-margin-bottom" type="text">
-                <input class="w3-input w3-border w3-margin-bottom" style="height:150px"
-                    placeholder="What's on your mind?">
-                <div class="w3-section">
-                    <a class="w3-button w3-red" onclick="document.getElementById('id01').style.display='none'">Cancel
-                         <i class="fa fa-remove"></i></a>
-                    <a class="w3-button w3-light-grey w3-right"
-                        onclick="document.getElementById('id01').style.display='none'">Send  <i
-                            class="fa fa-paper-plane"></i></a>
-                </div>
-            </div>
+    <div id="id01" class="w3-modal" style="z-index: 4">
+      <div class="w3-modal-content w3-animate-zoom">
+        <div class="w3-container w3-padding w3-red">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="w3-button w3-red w3-right w3-xxlarge"
+            ><i class="fa fa-remove"></i
+          ></span>
+          <h2>Send Mail</h2>
         </div>
+        <div class="w3-panel">
+          <label>To</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" />
+          <label>From</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" />
+          <label>Subject</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" />
+          <input
+            class="w3-input w3-border w3-margin-bottom"
+            style="height: 150px"
+            placeholder="What's on your mind?"
+          />
+          <div class="w3-section">
+            <a
+              class="w3-button w3-red"
+              onclick="document.getElementById('id01').style.display='none'"
+              >Cancel  <i class="fa fa-remove"></i
+            ></a>
+            <a
+              class="w3-button w3-light-grey w3-right"
+              onclick="document.getElementById('id01').style.display='none'"
+              >Send  <i class="fa fa-paper-plane"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </div>
-
 
     <!-- Overlay effect when opening the side navigation on small screens -->
-    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
-        title="Close Sidemenu" id="myOverlay"></div>
-
+    <div
+      class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()"
+      style="cursor: pointer"
+      title="Close Sidemenu"
+      id="myOverlay"
+    ></div>
 
     <!-- Page content -->
-    <div class="w3-main" style="margin-left:320px;">
-        <i class="fa fa-bars w3-button w3-white w3-hide-large w3-xlarge w3-margin-left w3-margin-top"
-            onclick="w3_open()"></i>
-        <a href="javascript:void(0)" class="w3-hide-large w3-red w3-button w3-right w3-margin-top w3-margin-right"
-            onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-pencil"></i></a>
+    <div class="w3-main" style="margin-left: 320px">
+      <i
+        class="fa fa-bars w3-button w3-white w3-hide-large w3-xlarge w3-margin-left w3-margin-top"
+        onclick="w3_open()"
+      ></i>
+      <a
+        href="javascript:void(0)"
+        class="w3-hide-large w3-red w3-button w3-right w3-margin-top w3-margin-right"
+        onclick="document.getElementById('id01').style.display='block'"
+        ><i class="fa fa-pencil"></i
+      ></a>
 
+      <div id="Amit" class="w3-container person">
+        <br />
+        <img class="w3-round w3-animate-top" src="1.png" style="width: 20%" />
+        <h5 class="w3-opacity">
+          Subject: About Me (This page has been and will be under Construction
+          🚧 👷‍♀️)
+        </h5>
+        <h4><i class="fa fa-clock-o"></i> From Amit Singh, Aug 29, 2021.</h4>
+        <a class="w3-button w3-light-grey" href="#"
+          >Reply<i class="w3-margin-left fa fa-mail-reply"></i
+        ></a>
+        <a class="w3-button w3-light-grey" href="#"
+          >Forward<i class="w3-margin-left fa fa-arrow-right"></i
+        ></a>
+        <hr />
+        <p>
+          Hello, As a teenager at school, I was the kid other students
+          approached about issues with their phone or laptop. I was the go-to
+          guy for fixing resolving any technical problems. Today, not much has
+          changed. I’m still the first point of call for technical issues. The
+          difference is I now also develop innovative software to solve the
+          problems of multinational companies. One of my most recent projects
+          involved designing and rolling-out a new piece of software to optimise
+          the efficiency of Smart Cards(Java Card).
+        </p>
+        <p>
+          I’m currently working as Software Engineer at Infineon
+          Technologies.<br />
+          ■ Working on Smart Card Technology, development of various payment
+          applets.<br />
+          ■ Using Java Card for payment application development for chip
+          cards.<br />
+          ■ Working with different cryptographic Algorithms.<br />
+        </p>
+        <p>
+          Some of my Projects are:<br />
+          ■
+          <u
+            ><a
+              href="https://28amit.github.io/Sorting-Visualizer/"
+              target="_blank"
+              >Sorting Visualizer</a
+            ></u
+          ><br />
+          ■
+          <u
+            ><a href="https://womanlab.herokuapp.com/" target="_blank"
+              >Website</a
+            ></u
+          ><br />
+          ■
+          <u
+            ><a href="https://28amit.github.io/Code-Player/" target="_blank"
+              >CODE PLAYER</a
+            ></u
+          ><br />
+        </p>
+        <p>
+          Something that I love about programming is the opportunity to work
+          with people from a wide range of disciplines. The software development
+          lifecycle involves working with so many different people and
+          departments and, as a people person and someone who loves to build new
+          relationships, it’s great to be able to come together with other
+          professionals who are striving towards the same goal.<br /><br />
 
+          If you want to talk about programming, coding, software engineering,
+          or anything else, drop me a line.<br />
+          <i
+            ><u
+              ><a href="mailto:amit28amical@gmail.com" target="_blank">Mail</a
+              ><a
+                href="https://www.linkedin.com/in/28amitsingh/"
+                target="_blank"
+                >Linkedin</a
+              ><a href="https://github.com/28amit" target="_blank">GitHub</a></u
+            ></i
+          ><br />
+          <br />
 
-        <div id="Amit" class="w3-container person">
-            <br>
-            <img class="w3-round  w3-animate-top" src="1.png" style="width:20%;">
-            <h5 class="w3-opacity">Subject: About Me (This page has been and will be under Construction 🚧 👷‍♀️)</h5>
-            <h4><i class="fa fa-clock-o"></i> From Amit Singh, Aug 29, 2021.</h4>
-            <a class="w3-button w3-light-grey" href="#">Reply<i class="w3-margin-left fa fa-mail-reply"></i></a>
-            <a class="w3-button w3-light-grey" href="#">Forward<i class="w3-margin-left fa fa-arrow-right"></i></a>
-            <hr>
-            <p>Hello, As a teenager at school, I was the kid other students approached about issues with their phone or
-                laptop.
-                I was the go-to guy for fixing resolving any technical problems.
-                Today, not much has changed. I’m still the first point of call for technical issues. The difference is I
-                now also develop innovative software to solve the problems of multinational companies. One of my most
-                recent projects involved designing and rolling-out a new piece of software to optimise the efficiency of
-                Smart Cards(Java Card).</p>
-            <p>
-                I’m currently working as Software Engineer at Infineon Technologies.<br>
-                ■ Working on Smart Card Technology, development of various payment applets.<br>
-                ■ Using Java Card for payment application development for chip cards.<br>
-                ■ Working with different cryptographic Algorithms.<br>
-            </p>
-            <p>
-                Some of my Projects are:<br>
-                ■ <u><a href="https://28amit.github.io/Sorting-Visualizer/" target="_blank">Sorting
-                        Visualizer</a></u><br>
-                ■ <u><a href="https://womanlab.herokuapp.com/" target="_blank">Website</a></u><br>
-                ■ <u><a href="https://28amit.github.io/Code-Player/" target="_blank">CODE PLAYER</a></u><br>
-            </p>
-            <p>
-                Something that I love about programming is the opportunity to work with people from a wide range of
-                disciplines. The software development lifecycle involves working with so many different people and
-                departments and, as a people person and someone who loves to build new relationships, it’s great to be
-                able to come together with other professionals who are striving towards the same goal.<br><br>
+          Skills: C++, Java, JavaScript, Java Card, software development, React,
+          data structures, coding, SQL, Visual Studio Code, UNIX, Python.
+        </p>
+        <p>Best Regards, <br />Amit Singh</p>
+      </div>
 
-                If you want to talk about programming, coding, software engineering, or anything else, drop me a
-                line.<br> <i><u><a href="mailto:amit28amical@gmail.com" target="_blank">Mail</a><a
-                            href="https://www.linkedin.com/in/28amitsingh/" target="_blank">Linkedin</a><a
-                            href="https://github.com/28amit" target="_blank">GitHub</a></u></i><br>
-                <br>
+      <div id="Suraj" class="w3-container person">
+        <br />
+        <img class="w3-round w3-animate-top" src="2.jpeg" style="width: 20%" />
+        <h5 class="w3-opacity">Subject: Resume</h5>
+        <h4><i class="fa fa-clock-o"></i> From Suraj, Aug 30, 2021.</h4>
+        <a class="w3-button w3-light-grey"
+          >Reply<i class="w3-margin-left fa fa-mail-reply"></i
+        ></a>
+        <a class="w3-button w3-light-grey"
+          >Forward<i class="w3-margin-left fa fa-arrow-right"></i
+        ></a>
+        <hr />
+        <p>
+          Hey,<br />Did Amit fur-get to give his Resume?<br />Here have a look
+          <i
+            ><a
+              href="https://drive.google.com/file/d/1g5n2ktFHL8CO5ffzMcUAmJp3H9gqa68v/view?usp=sharing"
+              style="color: red"
+              target="_blank"
+              >Click to view Resume</a
+            ></i
+          >
+        </p>
 
-                Skills: C++, Java, JavaScript, Java Card, software development, React, data structures, coding, SQL,
-                Visual Studio Code, UNIX, Python.
-            </p>
-            <p>Best Regards, <br>Amit Singh</p>
+        <p>
+          <a
+            class="down"
+            href="https://drive.google.com/file/d/1g5n2ktFHL8CO5ffzMcUAmJp3H9gqa68v/view?usp=sharing"
+            target="_blank"
+            ><span>Download</span><span>PDF</span></a
+          >
+        </p>
+        <p>
+          I'm Suraj and I realy hope you appreciated my cat pun ☝.<br />
+          Here's another, wait a meow-ment :<br />
+          What’s it called when all the treats are gone?<br />A cat-astrophe.
+        </p>
+        <p>I guess I'm overdoing it now, bye.</p>
+        <p>Forever yours,<br />Suraj</p>
+      </div>
+
+      <div id="Mansi" class="w3-container person">
+        <br />
+        <img class="w3-round w3-animate-top" src="3.jpeg" style="width: 20%" />
+        <h5 class="w3-opacity">Subject: None</h5>
+        <h4><i class="fa fa-clock-o"></i> From Mansi Doe, Sep 23, 2015.</h4>
+        <a class="w3-button w3-light-grey"
+          >Reply<i class="w3-margin-left fa fa-mail-reply"></i
+        ></a>
+        <a class="w3-button w3-light-grey"
+          >Forward<i class="w3-margin-left fa fa-arrow-right"></i
+        ></a>
+        <hr />
+        <p>Woof Woof,</p>
+        <p>
+          I'm not Mansi, don't even know who she is. I don't Know why this Amit
+          is using my Photo without my consent 😡.
+        </p>
+        <p>Anyways here are Amit's Socials:</p>
+        <div class="socialbtns">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/28amit"
+                class="fa fa-5x fa-github"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/28amitsingh/"
+                target="_blank"
+                class="fa fa-5x fa-linkedin"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/amitwithglasses"
+                target="_blank"
+                class="fa fa-5x fa-twitter"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/amitwithglasses/"
+                target="_blank"
+                class="fa fa-5x fa-instagram"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009387953601"
+                target="_blank"
+                class="fa fa-5x fa-facebook"
+              ></a>
+            </li>
+          </ul>
         </div>
-
-
-
-        <div id="Suraj" class="w3-container person">
-            <br>
-            <img class="w3-round w3-animate-top" src="2.jpeg" style="width:20%;">
-            <h5 class="w3-opacity">Subject: Resume</h5>
-            <h4><i class="fa fa-clock-o"></i> From Suraj, Aug 30, 2021.</h4>
-            <a class="w3-button w3-light-grey">Reply<i class="w3-margin-left fa fa-mail-reply"></i></a>
-            <a class="w3-button w3-light-grey">Forward<i class="w3-margin-left fa fa-arrow-right"></i></a>
-            <hr>
-            <p>Hey,<br>Did Amit fur-get to give his Resume?<br>Here have a look <i><a
-                        href="https://drive.google.com/file/d/1zf1dbr98KAnbv6RXgGAPrc267HUaugUM/view?usp=sharing"
-                        style="color:red;" target="_blank">Click to view
-                        Resume</a></i></p>
-
-            <p><a class="down" href="https://drive.google.com/file/d/1zf1dbr98KAnbv6RXgGAPrc267HUaugUM/view?usp=sharing"
-                    target="_blank"><span>Download</span><span>PDF</span></a></p>
-            <p>
-                I'm Suraj and I realy hope you appreciated my cat pun ☝.<br>
-                Here's another, wait a meow-ment :<br>
-                What’s it called when all the treats are gone?<br>A cat-astrophe.
-            </p>
-            <p>I guess I'm overdoing it now, bye.</p>
-            <p>Forever yours,<br>Suraj</p>
-        </div>
-
-
-
-        <div id="Mansi" class="w3-container person">
-            <br>
-            <img class="w3-round w3-animate-top" src="3.jpeg" style="width:20%;">
-            <h5 class="w3-opacity">Subject: None</h5>
-            <h4><i class="fa fa-clock-o"></i> From Mansi Doe, Sep 23, 2015.</h4>
-            <a class="w3-button w3-light-grey">Reply<i class="w3-margin-left fa fa-mail-reply"></i></a>
-            <a class="w3-button w3-light-grey">Forward<i class="w3-margin-left fa fa-arrow-right"></i></a>
-            <hr>
-            <p>Woof Woof,</p>
-            <p>I'm not Mansi, don't even know who she is. I don't Know why this Amit is using my Photo without my
-                consent 😡.
-            </p>
-            <p>Anyways here are Amit's Socials:</p>
-            <div class="socialbtns">
-                <ul>
-                    <li><a href="https://github.com/28amit" class="fa fa-5x fa-github" target="_blank"></a></li>
-                    <li><a href="https://www.linkedin.com/in/28amitsingh/" target="_blank"
-                            class="fa fa-5x fa-linkedin"></a></li>
-                    <li><a href="https://twitter.com/amitwithglasses" target="_blank" class="fa fa-5x fa-twitter"></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/amitwithglasses/" target="_blank"
-                            class="fa fa-5x fa-instagram"></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100009387953601" target="_blank"
-                            class="fa fa-5x fa-facebook"></a></li>
-                </ul>
-            </div>
-            <p>P.S. Note to Amit: Stop procrastinating and complete the Website</p>
-            <p>Woof Woof🐶</p>
-        </div>
-
-
-
+        <p>P.S. Note to Amit: Stop procrastinating and complete the Website</p>
+        <p>Woof Woof🐶</p>
+      </div>
     </div>
 
-
-
     <script>
-        var openInbox = document.getElementById("myBtn");
-        openInbox.click();
+      var openInbox = document.getElementById("myBtn");
+      openInbox.click();
 
-        function w3_open() {
-            document.getElementById("mySidebar").style.display = "block";
-            document.getElementById("myOverlay").style.display = "block";
-        }
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
 
-        function w3_close() {
-            document.getElementById("mySidebar").style.display = "none";
-            document.getElementById("myOverlay").style.display = "none";
-        }
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
 
-        function myFunc(id) {
-            var x = document.getElementById(id);
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-                x.previousElementSibling.className += " w3-red";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-                x.previousElementSibling.className =
-                    x.previousElementSibling.className.replace(" w3-red", "");
-            }
+      function myFunc(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+          x.previousElementSibling.className += " w3-red";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+          x.previousElementSibling.className =
+            x.previousElementSibling.className.replace(" w3-red", "");
         }
+      }
 
-        openMail("Amit")
-        function openMail(personName) {
-            var i;
-            var x = document.getElementsByClassName("person");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x = document.getElementsByClassName("test");
-            for (i = 0; i < x.length; i++) {
-                x[i].className = x[i].className.replace(" w3-light-grey", "");
-            }
-            document.getElementById(personName).style.display = "block";
-            event.currentTarget.className += " w3-light-grey";
+      openMail("Amit");
+      function openMail(personName) {
+        var i;
+        var x = document.getElementsByClassName("person");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
         }
+        x = document.getElementsByClassName("test");
+        for (i = 0; i < x.length; i++) {
+          x[i].className = x[i].className.replace(" w3-light-grey", "");
+        }
+        document.getElementById(personName).style.display = "block";
+        event.currentTarget.className += " w3-light-grey";
+      }
     </script>
 
     <script>
-        var openTab = document.getElementById("firstTab");
-        openTab.click();
+      var openTab = document.getElementById("firstTab");
+      openTab.click();
     </script>
-
-</body>
-
+  </body>
 </html>
